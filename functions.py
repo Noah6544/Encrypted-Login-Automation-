@@ -19,7 +19,7 @@ discordpassfile.close()
 
 #VARIABLES
 googlepass = None
-username = "noah6544@gmail.com"
+email = ""
 discordkey = open("discordkey.txt","rb")
 key = bytes(discordkey.read())
 discordkey.close()
