@@ -28,34 +28,10 @@ discordpassfile = open("discordpass.txt","rb")
 discordpass = discordpassfile.read()
 discordpass = cipher_suite.decrypt(discordpass)
 discordpass = discordpass.decode('utf-8')
-
-#ef decryptpassword()
-
-
-
-
-
 googlepass = ""
 googlekey = ""
 googlepassfile = open("googlepass.txt",)
 googlepasstxt = "googlepass"
-
-
-
-def math(num1,num2,num3):
-
-    num1 = int(num1)
-    num2 = int(num2)
-    num3 = int(num3)
-    for i in range(5)      :
-        print(num1)
-        print(num2)
-        print(num3)
-    googlepasstxt = num3
-
-print(googlepasstxt)
-print("akwsdjhlfkajd")
-
 
 
 def encryptpassword(programpass,programkey,programpassfile,programpasstxt,passwordfrfr):
@@ -84,28 +60,21 @@ def decryptpassword(programkey,programpassfile,programpass,programpasstxt):
     programpass = programpass.decode('utf-8')
     print(programpass)
 
-
-
-#encryptpassword(googlepass,googlekey,googlepassfile,googlepasstxt,"")
-#decryptpassword(googlekey,googlepassfile,googlepass,googlepasstxt)
-
-#opendiscord = subprocess.Popen("C:\\Users\\Noah\'s Marc P. 4648\\AppData\\Local\\Discord\\app-0.0.309\\Discord.exe")
-# = subprocess.Popen("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe")
-
-
-def testing():
-    print("TESTINTINSFI DNSAOIDF ISDAOFJ OISADF JSDAOIFJSDKLFJSLKSDSDF SDF SAF SAF ")
+#completed
 def discordin():
     subprocess.Popen("C:\\Users\\Noah\'s Marc P. 4648\\AppData\\Local\\Discord\\app-0.0.309\\Discord.exe")
     time.sleep(2)
-    py.click(394, 497)
+    py.click(400, 490)
     py.typewrite(username)
+    time.sleep(.05)
     py.click(423, 570)
+    time.sleep(.05)
     py.typewrite(str(discordpass))
     py.click(497, 660)
 
 
 
+#coimplete
 def discordout():
     subprocess.Popen("C:\\Users\\Noah\'s Marc P. 4648\\AppData\\Local\\Discord\\app-0.0.309\\Discord.exe")
     time.sleep(1)
@@ -115,10 +84,9 @@ def discordout():
     time.sleep(.7)
     py.click(1100, 570)
     time.sleep(1)
-
+    
+#incomplete
 def googlein():
-   #encryptpassword("","googlekey","googlepassfile","googlepass")
-
     subprocess.Popen("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe")
     time.sleep(1)
     py.typewrite("google.com")
@@ -141,7 +109,7 @@ def googleout():
     py.click(1734, 459)
 
 
-
+#incomplete
 def spotify():
     print("1")
     subprocess.Popen("C:\\Users\\Noah\'s Marc P. 4648\\AppData\\Roaming\\Spotify")
