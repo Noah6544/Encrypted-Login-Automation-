@@ -62,7 +62,7 @@ def decryptpassword(programkey,programpassfile,programpass,programpasstxt):
 
 #completed
 def discordin():
-    subprocess.Popen("C:\\Users\\Noah\'s Marc P. 4648\\AppData\\Local\\Discord\\app-0.0.309\\Discord.exe")
+    subprocess.Popen("C:\\Users\\user\\AppData\\Local\\Discord\\app-0.0.309\\Discord.exe")
     time.sleep(2)
     py.click(400, 490)
     py.typewrite(username)
