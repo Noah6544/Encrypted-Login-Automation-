@@ -33,7 +33,7 @@ googlekey = ""
 googlepassfile = open("googlepass.txt",)
 googlepasstxt = "googlepass"
 
-
+#only run this once, if you need to run it again, you'll have to delete your file because it generates a new key each time.
 def encryptpassword(programpass,programkey,programpassfile,programpasstxt,passwordfrfr):
     key = Fernet.generate_key()
     programkey = open(programkey + ".txt", "wb")
@@ -76,7 +76,7 @@ def discordin():
 
 #coimplete
 def discordout():
-    subprocess.Popen("C:\\Users\\Noah\'s Marc P. 4648\\AppData\\Local\\Discord\\app-0.0.309\\Discord.exe")
+    subprocess.Popen("C:\\Users\\User\\AppData\\Local\\Discord\\app-0.0.309\\Discord.exe")
     time.sleep(1)
     py.click(300, 1016)
     time.sleep(1)
@@ -112,5 +112,5 @@ def googleout():
 #incomplete
 def spotify():
     print("1")
-    subprocess.Popen("C:\\Users\\Noah\'s Marc P. 4648\\AppData\\Roaming\\Spotify")
+    subprocess.Popen("C:\\Users\\User\\AppData\\Roaming\\Spotify")
     print("2")
