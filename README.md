@@ -6,7 +6,7 @@ this is a script that I'm making in order to automatically sign in and out of sp
 3) Password encryption
 4) Setting up clicks
 ## VERSION
-### Some number of commit (429/2021)
+### Some number of commit (4/29/2021)
 - Added three steps which are hopefully going be easier to follow. added some rough instruction in each file. bored in class.
 ## Completed
 - I've managed to encrypt strings, store them on pc, decrypt bytes, convert to string, print out as text. 
