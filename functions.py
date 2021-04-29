@@ -1,3 +1,4 @@
+
 import pyautogui as py
 import webbrowser
 import subprocess
@@ -5,7 +6,6 @@ import time
 from cryptography.fernet import Fernet
 
 """
-
 #encrypting password
 discordpassfile = open("discordpass.txt","w")
 key = Fernet.generate_key()
