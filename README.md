@@ -1,10 +1,10 @@
 # Encrypted-Login-Automation-
 this is a script that I'm making in order to automatically sign in and out of spotify, discord, and google while encrypting the passwords and storing them on your pc. I'm trying to structure it so that it can be easily expanded when I have other sites to sign into.  
 # How to automate:
-## Steps (wip)
+## Steps 
 1) Key Generation
 3) Password encryption
-4) Setting up clicks
+4) Setting up clicks (Work In Progess)
 ## VERSION
 ### Some number of commit (4/29/2021)
 - Added three steps which are hopefully going be easier to follow. added some rough instruction in each file. bored in class.
@@ -14,6 +14,7 @@ this is a script that I'm making in order to automatically sign in and out of sp
 - Made 3 steps to hopefully make this easier for someone who might want to do this but doesn't know how to code.
 - stop playing playing rocket league. finish this instead 
 - - i actually did it. but subnautica is the problem now
+- I stopped playing subnautica
 ### From ToDo list:
 - make a .py file for each step, because you'll end up encrypting multiple times if you are running the same file. I'm also trying to make this accesible for people who don't wanna have to read and understand the code.
 -  Because I'm having trouble wrapping my head around making the files, opening the files, generating a key (making sure not to run it more than once to avoid generating a key that doesn't work for a password), I'm instead going to try to make diffferent .py files. Each labeled a different step with instructions on how to use each. This is supposed to be helpful for anyone wanting to create encrypted passwords without having to do much.
@@ -27,5 +28,5 @@ this is a script that I'm making in order to automatically sign in and out of sp
 - ### Add instructions to the readme.
 - ### Make the readme cleaner.
 - fix a lot of things. 
-- stop playing playing subnautica. you go too slow cuz ur so scared. u have 30 hours and just getting to build the prawn. 
-- scan the reaper leviathan. if you're gonna use the stasis rifle to freeze him. do not go for his face. he can still get you. learned from experience 
+- play subnautica again, beat the game already
+
